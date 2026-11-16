@@ -3,77 +3,332 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Bible Out Loud – Your Voice, His Word.</title>
-<meta name="description" content="Read Scripture aloud, build an audio Bible in your own voice, and share it with the people you love.">
-<meta property="og:title" content="Bible Out Loud – Your Voice, His Word.">
-<meta property="og:description" content="Read Scripture aloud, build an audio Bible in your own voice, and share it with the people you love.">
-<meta property="og:image" content="https://bibleoutloud.app/assets/logo.png">
-<link rel="icon" href="assets/logo.png">
-<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-<link rel="stylesheet" href="assets/site.css">
+<title>Bible Out Loud: Record the Bible in Your Own Voice</title>
+<meta name="description" content="Read Scripture aloud, verse by verse, and build an audio Bible in your own voice. Share it with family. Free app for iPhone and iPad.">
+<link rel="canonical" href="https://bibleoutloud.app/">
+<meta name="apple-itunes-app" content="app-id=6800993231">
+<meta name="theme-color" content="#FAF6F0" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1E1A17" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Bible Out Loud">
+<meta property="og:url" content="https://bibleoutloud.app/">
+<meta property="og:title" content="Bible Out Loud: Record the Bible in Your Own Voice">
+<meta property="og:description" content="Read Scripture aloud, verse by verse, and build an audio Bible in your own voice. Share it with family. Free app for iPhone and iPad.">
+<meta property="og:image" content="https://bibleoutloud.app/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/logo.png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="stylesheet" href="/assets/site.css">
+<script type="application/ld+json">[
+ {
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "Bible Out Loud",
+  "alternateName": "Bible Out Loud: Your Voice, His Word",
+  "description": "Record yourself reading the Bible aloud, verse by verse, build an audio Bible in your own voice, and share it with family.",
+  "operatingSystem": "iOS 18.0 or later, iPadOS 18.0 or later",
+  "applicationCategory": "ReferenceApplication",
+  "url": "https://bibleoutloud.app/",
+  "image": "https://bibleoutloud.app/assets/logo.png",
+  "screenshot": [
+   "https://bibleoutloud.app/assets/screen-read.png",
+   "https://bibleoutloud.app/assets/screen-library.png",
+   "https://bibleoutloud.app/assets/screen-progress.png",
+   "https://bibleoutloud.app/assets/screen-own.png"
+  ],
+  "installUrl": "https://apps.apple.com/us/app/bible-out-loud/id6800993231",
+  "downloadUrl": "https://apps.apple.com/us/app/bible-out-loud/id6800993231",
+  "offers": {
+   "@type": "Offer",
+   "price": "0",
+   "priceCurrency": "USD"
+  },
+  "publisher": {
+   "@type": "Organization",
+   "name": "Bible Out Loud",
+   "url": "https://bibleoutloud.app/",
+   "email": "hershapplications@gmail.com"
+  }
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Bible Out Loud",
+  "url": "https://bibleoutloud.app/"
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+   {
+    "@type": "Question",
+    "name": "What is Bible Out Loud?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Bible Out Loud is an app for iPhone and iPad that lets you record yourself reading the Bible aloud, one verse at a time. Over time your recordings add up to a complete audio Bible in your own voice, which you can listen to and share with family and friends."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "Is Bible Out Loud free?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Yes. The app is free to download, free to record with, and free to listen with. Sharing your Bible with one person is free too. A one-time purchase of $1.99 unlocks sharing with as many people as you like. There are no subscriptions and no ads."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "Which Bible translations can I read from?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "The King James Version (KJV) and the World English Bible (WEB) are built in. You can also choose Own Bible, which shows only the verse reference so you can read from any printed Bible or translation you love."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "Do I have to record the whole Bible?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "No. Start anywhere and record as much or as little as you like: a favorite psalm, one Gospel, or all 66 books. The Progress screen keeps track of every verse, chapter and book you finish."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "How do I share my audio Bible with family?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Tap Share My Bible in the Library tab, enter a family member's email address or phone number, and send the invite. Once they tap the link, your Bible appears in their Library. They need the free Bible Out Loud app on an iPhone or iPad."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "Do I need to create an account?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "No. There are no accounts or passwords. The app uses the Apple ID already on your iPhone or iPad, and your recordings are backed up to your own iCloud."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "Are my recordings private?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Yes. Every recording is private by default. Only the people you invite can listen, and you can stop sharing with anyone at any time. There are no ads and your data is never sold."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "Does it work without an internet connection?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Yes. The Bible text is built into the app and recordings are saved on your device first, so you can read and record offline. Backup and sharing catch up when you are back online."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "Is there an Android version?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Not at the moment. Bible Out Loud is available for iPhone and iPad."
+    }
+   }
+  ]
+ }
+]</script>
 </head>
 <body>
+  <a class="skip" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="wrap">
-      <a class="brand" href=""><img src="assets/logo.png" alt=""> Bible Out Loud</a>
-      <nav class="nav" aria-label="Main"><a href="" aria-current="page">Home</a><a href="support/">Support</a><a href="privacy/">Privacy</a></nav>
+      <a class="brand" href="/"><img src="/assets/logo.png" alt="" width="36" height="36"> Bible Out Loud</a>
+      <nav class="nav" aria-label="Main"><a href="/#how-it-works" class="hide-small">How it works</a><a href="/#faq" class="hide-small">FAQ</a><a href="/support/">Support</a><a class="nav-cta" href="https://apps.apple.com/us/app/bible-out-loud/id6800993231">Get the app</a></nav>
     </div>
   </header>
-  <main>
+  <main id="main">
     <section class="hero">
       <div class="wrap">
-        <img class="icon" src="assets/logo.png" alt="Bible Out Loud app icon">
-        <h1>Bible Out Loud</h1>
-        <p class="tagline">Your Voice, His Word.</p>
-        <p class="lead">Read Scripture aloud, one verse at a time, and build a complete audio Bible in your own voice. Share it with the people you love, and listen to theirs.</p>
-        <a class="store-button" href="https://apps.apple.com/us/app/bible-out-loud/id6800993231">Download on the App Store</a>
-        <p class="note">For iPhone and iPad. Free to download and to listen.</p>
+        <div>
+          <p class="eyebrow">For iPhone and iPad</p>
+          <h1>Record the Bible in your own voice</h1>
+          <p class="tagline">Your Voice, His Word.</p>
+          <p class="lead">Bible Out Loud helps you read Scripture aloud, one verse at a time, until you have a complete audio Bible in your own voice. Keep it, listen to it, and share it with the people you love.</p>
+          <div class="cta-row">
+            <a class="store-button" href="https://apps.apple.com/us/app/bible-out-loud/id6800993231" aria-label="Download Bible Out Loud on the App Store"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.05 12.54c-.03-2.7 2.2-4 2.3-4.06-1.25-1.83-3.2-2.08-3.9-2.11-1.66-.17-3.24.98-4.08.98-.84 0-2.14-.96-3.52-.93-1.81.03-3.48 1.05-4.41 2.67-1.88 3.26-.48 8.09 1.35 10.74.9 1.3 1.96 2.75 3.36 2.7 1.35-.05 1.86-.87 3.49-.87 1.63 0 2.09.87 3.52.84 1.45-.03 2.37-1.32 3.26-2.62 1.03-1.5 1.45-2.96 1.48-3.03-.03-.02-2.83-1.09-2.85-4.31zM14.37 4.6c.74-.9 1.24-2.15 1.1-3.4-1.07.04-2.36.71-3.13 1.61-.69.8-1.29 2.07-1.13 3.3 1.19.09 2.41-.61 3.16-1.51z"/></svg><span><small>Download on the</small><strong>App Store</strong></span></a>
+            <a class="text-link" href="#how-it-works">See how it works ↓</a>
+          </div>
+          <p class="note">Free to download. No account, no ads, no subscription.</p>
+        </div>
+        <div class="phone"><img src="/assets/screen-read.png" alt="Bible Out Loud Read screen showing John 3:16 with a large record button" width="720" height="1558" fetchpriority="high"></div>
       </div>
     </section>
 
-    <section class="wrap features">
-      <div class="feature">
-        <div class="feature-text">
-          <h2>Read and record</h2>
-          <p>Pick a passage, tap the microphone, and read the verse aloud. Read from the screen in KJV or WEB, or choose Own Bible and follow along in the printed Bible you love.</p>
+    <section class="section band" id="how-it-works">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>How it works</h2>
+          <p>No studio and no setup. Just your voice and a quiet few minutes.</p>
         </div>
-        <img src="assets/screen-read.png" alt="The Read screen showing John 3:16 with a record button" loading="lazy">
-      </div>
-      <div class="feature">
-        <div class="feature-text">
-          <h2>Build your audio Bible</h2>
-          <p>Every verse you record is saved in your Library. Play it back to back with Auto Play, search by word or verse, and share a verse, chapter, or book.</p>
-        </div>
-        <img src="assets/screen-library.png" alt="A Library of recorded verses from Genesis" loading="lazy">
-      </div>
-      <div class="feature">
-        <div class="feature-text">
-          <h2>Watch your progress</h2>
-          <p>Checkmarks, progress bars, and a daily streak show how far you've come through all 66 books.</p>
-        </div>
-        <img src="assets/screen-progress.png" alt="The Progress screen showing 8 percent complete and a 14 day streak" loading="lazy">
+        <ol class="steps">
+          <li><h3>Choose a passage</h3><p>Start anywhere: Genesis 1, Psalm 23, the Gospel of John. Read from the screen or from your own printed Bible.</p></li>
+          <li><h3>Read it out loud</h3><p>Tap the microphone and read the verse. Not happy with it? Record it again. The app moves you on to the next verse.</p></li>
+          <li><h3>Keep it and share it</h3><p>Every verse is saved in your Library. Listen back any time, and invite family to hear the Bible in your voice.</p></li>
+        </ol>
       </div>
     </section>
 
-    <section class="wrap cards" aria-label="Highlights">
-      <div class="card">
-        <h3>Share it with family</h3>
-        <p>Invite family and friends to listen to God's Word in a voice they know and love. Your first friend is free; a one-time purchase unlocks sharing with everyone.</p>
+    <section class="section" id="features">
+      <div class="wrap features">
+        <div class="feature">
+          <div class="feature-text">
+            <h2>Read Scripture aloud, verse by verse</h2>
+            <p>Reading the Bible out loud slows you down and helps the words sink in. Bible Out Loud shows one verse at a time, so recording never feels overwhelming.</p>
+            <ul class="checks">
+              <li>King James Version and World English Bible built in</li>
+              <li>Works offline, with the full Bible text on your device</li>
+              <li>Play back, re-record or delete any verse</li>
+            </ul>
+          </div>
+          <div class="phone"><img src="/assets/screen-read.png" alt="Recording John 3:16 in the King James Version" width="720" height="1558" loading="lazy"></div>
+        </div>
+        <div class="feature">
+          <div class="feature-text">
+            <h2>Use the Bible you already love</h2>
+            <p>Prefer the NIV, ESV, NKJV or a well-worn family Bible? Choose Own Bible and the app shows just the verse reference while you read from your printed copy.</p>
+            <ul class="checks">
+              <li>Record from any translation or language</li>
+              <li>Your progress is tracked the same way</li>
+            </ul>
+          </div>
+          <div class="phone"><img src="/assets/screen-own.png" alt="Own Bible mode showing only the reference John 3:16" width="720" height="1558" loading="lazy"></div>
+        </div>
+        <div class="feature">
+          <div class="feature-text">
+            <h2>Build your own audio Bible</h2>
+            <p>Every verse you record lands in your Library, in order, ready to play. Listen to a chapter on a walk, or let Auto Play carry you through a whole book.</p>
+            <ul class="checks">
+              <li>Search by word or by verse, like John 3:16</li>
+              <li>Auto Play verses back to back</li>
+              <li>Share a single verse, a chapter or a whole book</li>
+            </ul>
+          </div>
+          <div class="phone"><img src="/assets/screen-library.png" alt="Library screen listing recorded verses from Genesis with play buttons" width="720" height="1558" loading="lazy"></div>
+        </div>
+        <div class="feature">
+          <div class="feature-text">
+            <h2>See how far you have come</h2>
+            <p>All 66 books and 31,102 verses, tracked for you. Checkmarks, progress bars and a daily streak make it easy to keep a simple habit of reading aloud.</p>
+            <ul class="checks">
+              <li>Progress for every book and both Testaments</li>
+              <li>A daily streak to keep you going</li>
+            </ul>
+          </div>
+          <div class="phone"><img src="/assets/screen-progress.png" alt="Progress screen showing 8 percent of the Bible recorded and a 14 day streak" width="720" height="1558" loading="lazy"></div>
+        </div>
       </div>
-      <div class="card">
-        <h3>Hear theirs</h3>
-        <p>When someone shares their Bible with you, listen anytime, or download it for offline listening. Listening is always free.</p>
+    </section>
+
+    <section class="verse band">
+      <div class="wrap">
+        <blockquote>“So then faith cometh by hearing, and hearing by the word of God.”</blockquote>
+        <cite>Romans 10:17, KJV</cite>
       </div>
-      <div class="card">
-        <h3>Private by default</h3>
-        <p>No accounts or passwords. Your recordings live on your device and in your own iCloud, and only people you invite can listen.</p>
+    </section>
+
+    <section class="section" id="who-its-for">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>A gift only you can give</h2>
+          <p>Anyone can buy an audio Bible. Only you can read it in the voice your family knows.</p>
+        </div>
+        <div class="cards">
+          <div class="card"><h3>Parents and grandparents</h3><p>Leave your children and grandchildren the Bible read by you. A keepsake they can listen to for the rest of their lives.</p></div>
+          <div class="card"><h3>Your own time in the Word</h3><p>Reading aloud is a simple way to slow down, pay attention and remember what you read. Then hear it again on the go.</p></div>
+          <div class="card"><h3>Families and churches</h3><p>Read through a book together, share recordings with loved ones far away, or bless someone who can no longer read for themselves.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section band" id="sharing">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Share it with the people you love</h2>
+          <p>Invite family and friends to listen. They can download your Bible to hear offline, and listening is always free.</p>
+        </div>
+        <div class="pricing">
+          <div class="price">
+            <h3>Bible Out Loud</h3>
+            <p class="amount">Free</p>
+            <ul class="checks">
+              <li>Record the whole Bible</li>
+              <li>Listen to your own recordings</li>
+              <li>Share with one person</li>
+              <li>Listen to Bibles shared with you</li>
+            </ul>
+          </div>
+          <div class="price featured">
+            <h3>Unlock Sharing</h3>
+            <p class="amount">$1.99 <span>one time</span></p>
+            <ul class="checks">
+              <li>Share with as many people as you like</li>
+              <li>Works with Apple Family Sharing</li>
+              <li>No subscription, ever</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="privacy">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Private by default</h2>
+          <p>Your voice is personal. We built the app so it stays yours.</p>
+        </div>
+        <div class="cards">
+          <div class="card"><h3>No account needed</h3><p>No sign-up, no password. The app uses the Apple ID already on your device.</p></div>
+          <div class="card"><h3>Stored in your iCloud</h3><p>Recordings are saved on your device and backed up to your own iCloud. We cannot see or hear them.</p></div>
+          <div class="card"><h3>No ads, nothing sold</h3><p>Only people you invite can listen. Read the full <a href="/privacy/">privacy policy</a>.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section band" id="faq">
+      <div class="wrap">
+        <div class="section-head"><h2>Questions and answers</h2></div>
+        <div class="faq">
+          <details><summary>What is Bible Out Loud?</summary><p>Bible Out Loud is an app for iPhone and iPad that lets you record yourself reading the Bible aloud, one verse at a time. Over time your recordings add up to a complete audio Bible in your own voice, which you can listen to and share with family and friends.</p></details>
+          <details><summary>Is Bible Out Loud free?</summary><p>Yes. The app is free to download, free to record with, and free to listen with. Sharing your Bible with one person is free too. A one-time purchase of $1.99 unlocks sharing with as many people as you like. There are no subscriptions and no ads.</p></details>
+          <details><summary>Which Bible translations can I read from?</summary><p>The King James Version (KJV) and the World English Bible (WEB) are built in. You can also choose Own Bible, which shows only the verse reference so you can read from any printed Bible or translation you love.</p></details>
+          <details><summary>Do I have to record the whole Bible?</summary><p>No. Start anywhere and record as much or as little as you like: a favorite psalm, one Gospel, or all 66 books. The Progress screen keeps track of every verse, chapter and book you finish.</p></details>
+          <details><summary>How do I share my audio Bible with family?</summary><p>Tap Share My Bible in the Library tab, enter a family member's email address or phone number, and send the invite. Once they tap the link, your Bible appears in their Library. They need the free Bible Out Loud app on an iPhone or iPad.</p></details>
+          <details><summary>Do I need to create an account?</summary><p>No. There are no accounts or passwords. The app uses the Apple ID already on your iPhone or iPad, and your recordings are backed up to your own iCloud.</p></details>
+          <details><summary>Are my recordings private?</summary><p>Yes. Every recording is private by default. Only the people you invite can listen, and you can stop sharing with anyone at any time. There are no ads and your data is never sold.</p></details>
+          <details><summary>Does it work without an internet connection?</summary><p>Yes. The Bible text is built into the app and recordings are saved on your device first, so you can read and record offline. Backup and sharing catch up when you are back online.</p></details>
+          <details><summary>Is there an Android version?</summary><p>Not at the moment. Bible Out Loud is available for iPhone and iPad.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing">
+      <div class="wrap">
+        <h2>Start with one verse today</h2>
+        <p>Download Bible Out Loud and record your first verse in under a minute.</p>
+        <div class="cta-row">
+          <a class="store-button" href="https://apps.apple.com/us/app/bible-out-loud/id6800993231" aria-label="Download Bible Out Loud on the App Store"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.05 12.54c-.03-2.7 2.2-4 2.3-4.06-1.25-1.83-3.2-2.08-3.9-2.11-1.66-.17-3.24.98-4.08.98-.84 0-2.14-.96-3.52-.93-1.81.03-3.48 1.05-4.41 2.67-1.88 3.26-.48 8.09 1.35 10.74.9 1.3 1.96 2.75 3.36 2.7 1.35-.05 1.86-.87 3.49-.87 1.63 0 2.09.87 3.52.84 1.45-.03 2.37-1.32 3.26-2.62 1.03-1.5 1.45-2.96 1.48-3.03-.03-.02-2.83-1.09-2.85-4.31zM14.37 4.6c.74-.9 1.24-2.15 1.1-3.4-1.07.04-2.36.71-3.13 1.61-.69.8-1.29 2.07-1.13 3.3 1.19.09 2.41-.61 3.16-1.51z"/></svg><span><small>Download on the</small><strong>App Store</strong></span></a>
+          <div class="qr"><img src="/assets/qr-app-store.png" alt="QR code that opens Bible Out Loud on the App Store" width="92" height="92" loading="lazy"><span>On a computer?<br>Scan with your iPhone.</span></div>
+        </div>
       </div>
     </section>
   </main>
   <footer class="site-footer">
     <div class="wrap">
-      <span>© 2026 Bible Out Loud</span>
-      <span><a href="support/">Support</a> · <a href="privacy/">Privacy Policy</a> · <a href="mailto:hershapplications@gmail.com">Contact</a></span>
+      <div>
+        <a class="brand" href="/"><img src="/assets/logo.png" alt="" width="36" height="36"> Bible Out Loud</a>
+        <p>Your Voice, His Word. © 2026 Bible Out Loud</p>
+      </div>
+      <nav aria-label="Footer"><a href="https://apps.apple.com/us/app/bible-out-loud/id6800993231">App Store</a><a href="/support/">Support</a><a href="/privacy/">Privacy Policy</a><a href="mailto:hershapplications@gmail.com">Contact</a></nav>
     </div>
   </footer>
 </body>
